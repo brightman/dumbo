@@ -28,6 +28,7 @@
 2. 云相册的浏览功能
 3. 云相册的分享功能
 
+# 云相册系统会提供API接口供APP调用
 ```
 ```markdown
 云相册APP（开源）
@@ -36,9 +37,9 @@
 2. 云相册的浏览功能
 3. 云相册的分享功能
 
-# Header 1
-## Header 2
-### Header 3
+# iOS
+## Android
+### 小程序
 
 - Bulleted
 - List
@@ -51,10 +52,11 @@
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 加入该项目
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brightman/dumbo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. 我们需要iOS/Android/小程序的开发人员，我们不会向你支付费用，但会把你的名字列在项目中
+2. 我们需要电子相框的生产厂商进行合作，我们会支付开模和生产费用。
 
-### Support or Contact
+### 联系我们
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
