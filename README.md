@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## 云象册项目说明
 
-You can use the [editor on GitHub](https://github.com/brightman/dumbo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+云象是一个开源的个人云相册服务，它利用你的路由器和移动硬盘搭建一个可供互联网访问相册服务，提供手机相册同步、图片上传、提取码分享等功能。由于它使用的是你个人的路由器带宽（大多数是家庭的）和个人的移动硬盘，所以你不需要为云服务支付任何费用。市面上常见的云服务，比如小米云 1T1年费用是499元。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+由于云象是一个刚刚开始的项目，很多功能并不完善，所以欢迎有兴趣的程序猿加入一起捣鼓。
+
+
 
 ### Markdown
 
