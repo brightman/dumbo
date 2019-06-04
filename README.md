@@ -6,12 +6,35 @@
 
 
 
-### Markdown
+### 模块说明
 
 基于有USB口能外接硬盘的智能路由器开发个人云相册服务。
 
 ```markdown
-Syntax highlighted code block
+用户系统（暂时不开源）
+
+主要功能
+1. 用户注册、短域名，用户可以注册3个字母以上的短域名，比如：abc.dir.ink
+2. 提供DDNS服务，由于家庭宽带没有固定IP，只能通过DDNS实现短域名到家庭IP的映射
+3. 提供目录分享和提取码功能
+
+# 用户系统会提供API接口供云相册服务调用
+```
+
+```markdown
+云相册系统（开源）
+
+1. 手机相册同步功能
+2. 云相册的浏览功能
+3. 云相册的分享功能
+
+```
+```markdown
+云相册APP（开源）
+
+1. 手机相册同步功能
+2. 云相册的浏览功能
+3. 云相册的分享功能
 
 # Header 1
 ## Header 2
@@ -20,8 +43,6 @@ Syntax highlighted code block
 - Bulleted
 - List
 
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
