@@ -59,4 +59,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### 联系我们
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+请在这篇微信文章或公众号留言[联系我们](https://mp.weixin.qq.com/s/Sq57dbQnC8IxvhaDSclXIQ)
