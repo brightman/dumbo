@@ -10,9 +10,6 @@ from http.server import ThreadingHTTPServer,BaseHTTPRequestHandler,SimpleHTTPReq
 
 class BaiscAuthRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, directory=None,basicauth="admin:admin", **kwargs):
-        if directory is None:
-            directory = os.getcwd()
-        self.directory = directory
         self.basic_auth = basicauth
         super().__init__(directory=directory,*args, **kwargs)
     
@@ -134,6 +131,21 @@ class BaiscAuthRequestHandler(SimpleHTTPRequestHandler):
         except:
             f.close()
             raise
+
+    def send_header(self, keyword, value):
+        """Send a MIME header to the headers buffer."""
+        if self.request_version != 'HTTP/0.9':
+            if not hasattr(self, '_headers_buffer'):
+                self._headers_buffer = []
+            self._headers_buffer.append(
+                ("%s: %s\r\n" % (keyword, value)).encode('utf8', 'strict'))
+
+        if keyword.lower() == 'connection':
+            if value.lower() == 'close':
+                self.close_connection = True
+            elif value.lower() == 'keep-alive':
+                self.close_connection = False
+
 
 def test(HandlerClass=BaseHTTPRequestHandler,
          ServerClass=ThreadingHTTPServer,
