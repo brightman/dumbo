@@ -28,9 +28,7 @@
 2. 云相册的浏览功能
 3. 云相册的分享功能
 
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo1%402x.png?raw=true)
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo2%402x.png?raw=true)
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo3%402x.png?raw=true)
+
 
 # 云相册系统会提供API接口供APP调用
 ```
@@ -51,7 +49,8 @@
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and 
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
@@ -64,3 +63,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### 联系我们
 
 请在这篇微信文章或公众号留言[联系我们](https://mp.weixin.qq.com/s/Sq57dbQnC8IxvhaDSclXIQ)
+
+已经完成了一个简单的访问验证的文件分享服务
+![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo1%402x.png?raw=true)
+![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo2%402x.png?raw=true)
+![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo3%402x.png?raw=true)
