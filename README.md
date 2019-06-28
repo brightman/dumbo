@@ -21,8 +21,8 @@
 # 用户系统会提供API接口供云相册服务调用
 ```
 
-```markdown
-云相册系统（开源）
+
+[云相册系统（开源）](https://github.com/brightman/dumbo/blob/master/client/readme.md?raw=true)
 
 1. 手机相册同步功能
 2. 云相册的浏览功能
@@ -31,7 +31,8 @@
 
 
 # 云相册系统会提供API接口供APP调用
-```
+
+
 ```markdown
 云相册APP（开源）
 
@@ -63,8 +64,3 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### 联系我们
 
 请在这篇微信文章或公众号留言[联系我们](https://mp.weixin.qq.com/s/Sq57dbQnC8IxvhaDSclXIQ)
-
-已经完成了一个简单的访问验证的文件分享服务
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo1%402x.png?raw=true)
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo2%402x.png?raw=true)
-![Image](https://github.com/brightman/dumbo/blob/master/client/dumbo3%402x.png?raw=true)
