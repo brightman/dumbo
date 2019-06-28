@@ -22,7 +22,7 @@
 ```
 
 
-[云相册系统（开源）](https://github.com/brightman/dumbo/blob/master/client/readme.md?raw=true)
+[云相册系统（开源）](https://github.com/brightman/dumbo/blob/master/client/readme.md)
 
 1. 手机相册同步功能
 2. 云相册的浏览功能
